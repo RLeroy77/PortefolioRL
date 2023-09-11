@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portefolio - Rémy Leroy</title>
+
+    <!-- Mon CSS -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!--Ficher Bootswtach-->
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/_bootswatch.scss">
+    <link rel="stylesheet" href="style/_variables.scss">
+
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/94e2002526.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="bg-image d-flex flex-column min-vh-100">
+        <!--Navbar-->
+        <nav class="sticky-top">
+            <div class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Portefolio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor"
+                        aria-controls="navbarColor" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarColor">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#Compétences">Compétences</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#Projets">Projets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#Contact">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="experience.html">Expériences</a>
+                            </li>
+                        </ul>
+                        <!--
+                            <form class="d-flex">
+                                <input class="form-control me-sm-2" type="search" placeholder="Rechercher">
+                                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Rechercher</button>
+                            </form>
+                            -->
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--Corps de Portefolio-->
+        <article class="flex-fill">
+            <!-- Présentation -->
+            <section class="container py-4" id="Présentation">
+                <h3>Stage : FCBA</h3>
+                <p class="container mt-4" style="color: rgb(200,200,200);">
+                    <span class="image left">
+                        <img src="image/Institut_Technologique_FCBA.jpg" class="img-fluid ratio ratio-1x1"
+                            style="width: 150px;" alt="Image" id="imgFCBA">
+
+                    </span>
+                    J'ai eu l'occasion de réaliser mon stage de première année au sein de l'Institut Technologique FCBA
+                    sur la période du
+                    09/05/2023 au 23/06/2023. J'y ai découvert le Framework Symfony 6, en lien avec mes cours de cette
+                    année. De plus, j'ai
+                    été amené à découvrir le C# sous le Framework ASP.NET MVC. L'entreprise fonctionne sur une période
+                    de 4 jours et demi
+                    par semaine avec des horaires variables allant de 7h et 9h30 pour les arrivées et de 16h et 19h pour
+                    les départs. Cette
+                    flexibilité m'a permis d'aménager mon planning et de pouvoir travailler en toute autonomie. Dès mon
+                    arrivé, l’équipe m’a mis à
+                    l’aise en répondant clairement à mes questions et en me donnant des explications claires qui m’ont
+                    aidé à comprendre et
+                    à apprendre. J’ai travaillé sur des projets relatifs l’entreprise en collaboration avec deux.
+                    N’étant pas sur le même
+                    site, nous étions amenés à travailler en distanciel via l'application Teams. Les compétences que
+                    j'ai pu acquérir au
+                    sein de mon stage, m'ont permis d'avancer et d'apporter ma contribution à mes collaborateurs sans
+                    les retarder.
+                </p>
+                <div class="d-flex flex-column flex-sm-row">
+                    <div class="mb-2 me-sm-2">
+                        <h5>Documentation :</h5>
+                    </div>
+                    <div class="mb-2 me-sm-2">
+                        <a href="doc/Attestation_de_stage_IPSSI.pdf">
+                            <button class="btn btn-outline-info btn-sm">Attestation de stage de l'IPSSI</button></a>
+                    </div>
+                    <div class="mb-2 me-sm-2">
+                        <a href="doc/Attestation_de_stage_FCBA.pdf">
+                            <button class="btn btn-outline-info btn-sm">Attestation de stage de FCBA</button></a>
+                    </div>
+                    <div>
+                        <a href="doc/FICHE_DE_LIAISON_SLAM.pdf">
+                            <button class="btn btn-outline-info btn-sm">Fiche de liaison</button></a>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <!--Footer-->
+        <footer>
+            <div class="d-flex flex-column py-4 bg-light text-center">
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/rémy-leroy-688a02262/">
+                            <i class="fa-brands fa-linkedin fa-xl text-info"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/RemyLeoy">
+                            <i class="fa-brands fa-github fa-xl text-info"></i>
+                        </a>
+                    </li>
+                </ul>
+                <h6>&copy; 2023 Rémy Leroy. Tous droits réservés.</h6>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
