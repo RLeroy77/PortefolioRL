@@ -95,8 +95,8 @@
                     raison de …. (et preciser votre option)
                 </p>
                 <div class="row">
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <div class="card card border-info">
+                    <div class="col-md-4 d-flex">
+                        <div class="card card border-info mb-4 flex-fill">
                             <div class="card-header bg-info text-white text-center">Option SLAM :</div>
                             <div class="card-body">
                                 <ul>
@@ -115,8 +115,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <div class="card border-info">
+                    <div class="col-md-4 d-flex">
+                        <div class="card border-info mb-4 flex-fill">
                             <div class="card-header bg-info text-white text-center">La cybersécurité</div>
                             <div class="card-body">
                                 <p class="card-text text-center">Pour répondre au besoin actuel du domaine informatique,
@@ -132,8 +132,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 d-flex justify-content-center">
-                        <div class="card border-info">
+                    <div class="col-md-4 d-flex">
+                        <div class="card border-info mb-4 flex-fill">
                             <div class="card-header bg-info text-white text-center">Option SISR :</div>
                             <div class="card-body">
                                 <ul>
@@ -242,9 +242,23 @@
             <section class="container py-4 pt-5 pb-0" id="Projets">
                 <h2>Projets</h2>
                 <div class="row">
+                    <!--AP1 AllSecurity-->
+                    <div class="col-mb-6 d-flex">
+                        <div class="card border-info mb-4 flex-fill">
+                            <div class="card-header bg-info text-white text-center">AllSecurity</div>
+                            <img src="image/AllSecurity.png" class="card-img-top img-fluid" alt="Photo AllSecurity"
+                                id="imgAllSecurity">
+                            <div class="card-body">
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
                     <!--Projet BiLitEauTech-->
-                    <div class="col-md-6">
-                        <div class="card border-info mb-4">
+                    <div class="col-md-6 d-flex">
+                        <div class="card border-info mb-4 flex-fill">
                             <img src="image/Projet_BiLitEauTech.png" class="card-img-top img-fluid"
                                 alt="Photo du Projet BiLitEauTech" id="imgBiLitEauTech">
                             <div class="card-body">
@@ -258,7 +272,7 @@
                                 </ul>
                                 </p>
                                 <abbr title="Voir le projet">
-                                    <a href="https://biliteautech.ipssi-sio.fr" class="btn btn-info">
+                                    <a href="https://biliteautech.ipssi-sio.fr" target="_blank" class="btn btn-info">
                                         <i class="fa-solid fa-eye"></i>
                                     </a>
                                 </abbr>
@@ -266,8 +280,8 @@
                         </div>
                     </div>
                     <!--Base de données du Projet BiLitEauTech-->
-                    <div class="col-md-6">
-                        <div class="card border-info mb-4">
+                    <div class="col-md-6 d-flex">
+                        <div class="card border-info mb-4 flex-fill">
                             <img src="image/BBD_Projet_BiLitEauTech.png" class="card-img-top img-fluid"
                                 alt="Photo de la nase de donées du Projet BiLitEauTech" id="imgBDD">
                             <div class="card-body">
@@ -284,8 +298,8 @@
                 </div>
                 <div class="row">
                     <!--Projet Facturation-->
-                    <div class="col-md-6">
-                        <div class="card border-info mb-4">
+                    <div class="col-md-6 d-flex">
+                        <div class="card border-info mb-4 flex-fill">
                             <img src="image/Projet_Facturation.png" class="card-img-top img-fluid"
                                 alt="Photo du Projet Facturation" id="imgFacturation">
                             <div class="card-body">
@@ -299,7 +313,8 @@
                                 </ul>
                                 </p>
                                 <abbr title="Voir le projet">
-                                    <a href="https://rleroy77.github.io/Facturation/" class="btn btn-info">
+                                    <a href="https://rleroy77.github.io/Facturation/" target="_blank"
+                                        class="btn btn-info">
                                         <i class="fa-solid fa-eye"></i>
                                     </a>
                                 </abbr>
@@ -313,57 +328,20 @@
             <section class="container py-4 pt-5" id="Contact">
                 <h2>Contactez-moi</h2>
                 <div class="row">
-                    <div class="col-md-8 mb-4">
-                        <form action="post">
-                            <div class="row">
-                                <div class="col-sm-6 mb-4">
-                                    <!-- <label for="nom" class="form-label">Nom</label> -->
-                                    <input type="text" class="form-control" id="nom" placeholder="Votre nom"
-                                        required="true">
-                                </div>
-                                <div class="col-sm-6 mb-4">
-                                    <!-- <label for="prenom" class="form-label">Prénom</label> -->
-                                    <input type="text" class="form-control" id="prenom" placeholder="Votre prénom"
-                                        required="true">
-                                </div>
-                                <div class="col-sm-6 mb-4">
-                                    <!-- <label for="email" class="form-label">Email</label> -->
-                                    <input type="email" class="form-control" id="email" placeholder="Votre email"
-                                        required="true">
-                                </div>
-                                <div class="col-sm-6 mb-4">
-                                    <!-- <label for="tel" class="form-label">Téléphone</label> -->
-                                    <input type="tel" class="form-control" id="tel" placeholder="Votre numéro"
-                                        required="true">
-                                </div>
-                                <div class="col-12 mb-4">
-                                    <!-- <label for="message" class="form-label">Message</label> -->
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Votre message"
-                                        required="true"></textarea>
-                                </div>
-                                <div class="col-4">
-                                    <button type="submit" class="btn btn-info">Envoyer</button>
-                                </div>
-                            </div>
-                        </form>
+                    <div class="col-12 mb-4">
+                        <h5>
+                            <i class="fa-solid fa-envelope text-info"></i>
+                            <span class="label">remy.leroy.pro@hotmail.com</span>
+                        </h5>
                     </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-12 mb-4">
-                                <h5>
-                                    <i class="fa-solid fa-envelope text-info"></i>
-                                    <span class="label">remy.leroy.pro@hotmail.com</span>
-                                </h5>
-                            </div>
-                            <div class="col-12 mb-4">
-                                <a href="doc/leroy_remy_cv.pdf">
-                                    <button class="btn btn-outline-info btn-xl">Mon CV</button></a>
-                            </div>
-                            <div class="col-12 mb-4">
-
-                            </div>
-                        </div>
+                    <div class="col-12 mb-4">
+                        <a href="doc/leroy_remy_cv.pdf" target="_blank">
+                            <button class="btn btn-outline-info btn-xl">Mon CV</button></a>
                     </div>
+                    <div class="col-12 mb-4">
+                        <p></p>
+                    </div>
+                </div>
             </section>
         </article>
 
@@ -372,12 +350,12 @@
             <div class="d-flex flex-column py-4 bg-light text-center">
                 <ul class="list-inline">
                     <li class="list-inline-item">
-                        <a href="https://www.linkedin.com/in/rémy-leroy-688a02262/">
+                        <a href="https://www.linkedin.com/in/rémy-leroy-688a02262/" target="_blank">
                             <i class="fa-brands fa-linkedin fa-xl text-info"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://github.com/RLeroy77">
+                        <a href="https://github.com/RLeroy77" target="_blank">
                             <i class="fa-brands fa-github fa-xl text-info"></i>
                         </a>
                     </li>
