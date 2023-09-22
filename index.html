@@ -18,16 +18,16 @@
     <link rel="stylesheet" href="style/style.css">
 
     <!-- JS Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/94e2002526.js" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </head>
 
 <body>
     <div class="bg-image d-flex flex-column min-vh-100">
-        <!--Navbar-->
+        <!--START Navbar-->
         <nav class="sticky-top">
             <div class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
                 <div class="container-fluid">
@@ -58,11 +58,12 @@
                 </div>
             </div>
         </nav>
+        <!--END Navbar-->
 
 
-        <!--Corps de Portefolio-->
+        <!--START Corps de Portefolio-->
         <article class="flex-fill">
-            <!-- Présentation -->
+            <!--START Présentation -->
             <section class="container py-4 pb-0" id="Présentation">
                 <h2>Qui je suis ?</h2>
                 <p class="container mt-4" style="color: rgb(200,200,200);">
@@ -82,8 +83,9 @@
                 et la programmation d’où mon choix pour l’option SLAM.
                 </p>
             </section>
+            <!--END Présentation -->
 
-            <!--Présentation du BTS SIO-->
+            <!--START Présentation du BTS SIO-->
             <section class="container py-4 pb-0">
                 <h2>Présentation du BTS SIO</h2>
                 <p class="text-center">
@@ -151,9 +153,9 @@
                     </div>
                 </div>
             </section>
+            <!--END Présentation du BTS SIO-->
 
-
-            <!-- Compétences -->
+            <!--START Compétences -->
             <section class="container py-4 pt-5 pb-0" id="Compétences">
                 <h2>Compétences</h2>
                 <div class="row mt-2">
@@ -236,23 +238,77 @@
                     </div>
                 </div>
             </section>
+            <!--END Compétences -->
 
-
-            <!--Projets-->
+            <!--START Projets-->
             <section class="container py-4 pt-5 pb-0" id="Projets">
                 <h2>Projets</h2>
                 <div class="row">
-                    <!--AP1 AllSecurity-->
-                    <div class="col-mb-6 d-flex">
+                    <!--START AP1 AllSecurity-->
+                    <div class="col-md-6 d-flex">
                         <div class="card border-info mb-4 flex-fill">
-                            <div class="card-header bg-info text-white text-center">AllSecurity</div>
                             <img src="image/AllSecurity.png" class="card-img-top img-fluid" alt="Photo AllSecurity"
                                 id="imgAllSecurity">
                             <div class="card-body">
-                                <p class="card-text"></p>
+                                <h5 class="card-title">AllSecurity</h5>
+                                <p class="card-text">Description du projet :
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>2</li>
+                                </ul>
+                                </p>
+                                <div class="btn-group">
+                                    <abbr title="Voir le projet">
+                                        <a href="https://rleroy77.github.io/AllSecurity/" target="_blank"
+                                            class="btn btn-info">
+                                            <i class="fa-solid fa-eye"></i></a>
+                                    </abbr>
+
+                                    <div class="dropdown">
+                                        <button class="btn btn-info dropdown-toggle" type="button"
+                                            data-toggle="dropdown">
+                                            Présentation
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a href="doc/Presentation_AllSecurity.pdf" target="_blank"
+                                                class="dropdown-item btn btn-info">
+                                                <i class="fa-solid fa-eye"></i></a>
+                                            <a href="doc/Presentation_AllSecurity.pdf"
+                                                download="PresentationAllSecurity.pdf"
+                                                class="dropdown-item btn btn-info">
+                                                <i class="fa-solid fa-download"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                </abbr>
                             </div>
                         </div>
                     </div>
+                    <!--END AP1 AllSecurity-->
+                    <!--START AP2-->
+                    <div class="col-md-6 d-flex">
+                        <div class="card border-info mb-4 flex-fill">
+                            <img src="image/AllSecurity.png" class="card-img-top img-fluid" alt="Photo AllSecurity"
+                                id="imgAllSecurity">
+                            <div class="card-body">
+                                <h5 class="card-title">AP2</h5>
+                                <p class="card-text">Description du projet :
+                                <ul>
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>2</li>
+                                </ul>
+                                </p>
+                                <abbr title="Voir le projet">
+                                    <a href="" target="_blank" class="btn btn-info">
+                                        <i class="fa-solid fa-eye"></i>
+                                    </a>
+                                </abbr>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END AP2-->
                 </div>
 
                 <div class="row">
@@ -263,7 +319,7 @@
                                 alt="Photo du Projet BiLitEauTech" id="imgBiLitEauTech">
                             <div class="card-body">
                                 <h5 class="card-title">Un site bibliothèque nomé BiLitEauTech</h5>
-                                <p class="card-text">Description du projet :.
+                                <p class="card-text">Description du projet :
                                 <ul>
                                     <li>Création d’un site web dynamique en HTML, CSS et PHP.</li>
                                     <li>Conception et création de la base de données MySQL.</li>
@@ -323,8 +379,9 @@
                     </div>
                 </div>
             </section>
+            <!--END Projets-->
 
-            <!-- Formulaire de contact -->
+            <!--START Formulaire de contact -->
             <section class="container py-4 pt-5" id="Contact">
                 <h2>Contactez-moi</h2>
                 <div class="row">
@@ -343,9 +400,11 @@
                     </div>
                 </div>
             </section>
+            <!--END Formulaire de contact -->
         </article>
+        <!--END Corps de Portefolio-->
 
-        <!--Footer-->
+        <!--START Footer-->
         <footer>
             <div class="d-flex flex-column py-4 bg-light text-center">
                 <ul class="list-inline">
@@ -363,6 +422,7 @@
                 <h6>&copy; 2023 Rémy Leroy. Tous droits réservés.</h6>
             </div>
         </footer>
+        <!--END Footer-->
     </div>
 </body>
 
