@@ -18,16 +18,16 @@
     <link rel="stylesheet" href="style/style.css">
 
     <!-- JS Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/94e2002526.js" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </head>
 
 <body>
     <div class="bg-image d-flex flex-column min-vh-100">
-        <!--Navbar-->
+        <!--START Navbar-->
         <nav class="sticky-top">
             <div class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
                 <div class="container-fluid">
@@ -45,7 +45,7 @@
                                 <a class="nav-link" href="index.html#Projets">Projets</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html#Contact">Contact</a>
+                                <a class="nav-link" href="index.html#Documentations">Documentations</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="experience.html">Expériences</a>
@@ -53,25 +53,62 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="veilles.html">Veilles</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact">Contact</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
+        <!--END Navbar-->
 
 
         <!--START Corps de Portefolio-->
         <article class="flex-fill">
+            <!--START Présentation -->
+            <section class="container py-4">
+                <h3>Qu'est ce que la veille technologique ?</h3>
+                <p class="container mt-4" style="color: rgb(200,200,200);">
+                    La veille technologique, élément de la veille stratégique, consiste à
+                    surveiller les évolutions techniques, les innovations dans un secteur
+                    d’activité donnée. La veille technologique comprend notamment la
+                    surveillance, la collecte, le partage et la diffusion d’information permettant
+                    d’anticiper ou de s’informer sur des changements en matière de recherche,
+                    développement, brevet, lancement de nouveaux produits, matériaux,
+                    processus, concepts, innovation de fabrication, etc…. Cela a pour but
+                    d’évaluer l’impact sur l’environnement et l’organisation.
+                </p>
+            </section>
+            <!--END Présentation -->
+
+
             <!--START Veilles 1-->
             <section class="container py-4">
-                <h2>Veilles Technologique 1 : Nanotechnologies</h2>
-                <p>A venir</p>
+                <h3>Veilles Technologique 1 : Nanotechnologies</h3>
+                <ul class="list-inline">
+                    <li class="list-inline-item mb-2">
+                        <div class="dropdown">
+                            <button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown">
+                                Présentation
+                            </button>
+                            <div class="dropdown-menu">
+                                <a href="doc/Veille_Techno_Nanotechnologies.pdf" target="_blank"
+                                    class="dropdown-item btn btn-info">
+                                    <i class="fa-solid fa-eye"></i></a>
+                                <a href="doc/Veille_Techno_Nanotechnologies.pdf" download=""
+                                    class="dropdown-item btn btn-info">
+                                    <i class="fa-solid fa-download"></i></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </section>
             <!--END Veilles 1-->
 
             <!--START Veilles 2-->
             <section class="container py-4">
-                <h2>Veilles Technologique 2</h2>
+                <h3>Veilles Technologique 2</h3>
                 <p>A venir</p>
             </section>
             <!--END Veilles 2-->
