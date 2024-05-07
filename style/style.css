@@ -26,3 +26,9 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.competence-img {
+    height: 100px; /* ajuste la hauteur selon tes besoins */
+    width: auto; /* permet à la largeur de s'ajuster automatiquement */
+    max-width: 100%; /* assure que l'image ne dépasse pas la largeur de son conteneur */
+}
